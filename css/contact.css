@@ -83,7 +83,7 @@ h6 {
     left: 0;
   }
   .intro {
-    background: url("/img/fon-contact.jpg") center no-repeat;
+    background: url("img/fon-contact.jpg") center no-repeat;
     background-size: cover;
     max-height: 80hv;
     overflow: hidden;
