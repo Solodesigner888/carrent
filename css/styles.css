@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-@import url(color.css) screen and (color);
+@import url(../color.css) screen and (../color);
 
 
 .card {
@@ -165,10 +165,10 @@ text-align: center;
 }
  
 .shop-item01 {
-  background: url(..img/card1.png);
+  background-image: url("../img/card1.png");
 }
 .shop-item02 {
-  background-image: src="img/card2.png";
+  background-image: src="../img/card2.png";
 }
 .shop-item03 {
   background-image: src="img/card3.png";
