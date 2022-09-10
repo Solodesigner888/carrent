@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-@import url(color.css) screen and (color);
+@import url(../color.css) screen and (../color);
 
 .img {
   max-width: 100%;
@@ -119,7 +119,7 @@ h5 {
   color: rgb(239, 11, 30);
 }
 .modal-body {
-  background-image: url("img/bmw.jpg");
+  background-image: url(../"img/bmw.jpg");
   opacity: 94%;
   color: white;
  }
