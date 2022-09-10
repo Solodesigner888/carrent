@@ -21,7 +21,7 @@
   left: 0;
 }
 .intro {
-  background: url("img/fon-avto2.png") center no-repeat;
+  background: url(../"img/fon-avto2.png") center no-repeat;
   background-size: cover;
   max-height: 80hv;
   overflow: hidden;
