@@ -317,6 +317,9 @@ color: red;
 .widget {
   width: 50%;
 }
+.navbar {
+  width: 400px;
+}
 .card-title {
   font-size: 16px;
 }
@@ -327,7 +330,7 @@ color: red;
   font-size: 14px;
 }
 .intro {
-  width: 50%;
+  width: 400px;
 }
 .btn {
   margin-top: 10px;
@@ -342,14 +345,17 @@ color: red;
 .copyright {
   text-align: left;
   font-size: 12px;
+  margin-left: 10px;
 }
+.main-footer {
+  width: 400px;
+
 }
-@media screen and (max-width:350px){
- .card-img-top {
-  width: 20px 20px;
- } 
- .copyright {
-  text-align: left;
-  font-size: 12px;
+.footer-copyright {
+  width: 400px;
 }
+.card-img-top {
+  width: 380px;
+}
+
 }
