@@ -422,6 +422,49 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 }
 
 }
+@media screen and (max-width:992px){
+  .clearfix {font-size: 16px;
+  margin: 0px 0px 30px 0px; width: 95%;}
+  .carousel-inner {
+    width: 99%;
+  }
+  .intro-rent-text {
+    font-size: 60px;
+  }
+  .mai {
+    font-size: 35px;
+  }
+  .from {
+    font-size: 25px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:767px){
+  .clearfix {font-size: 14px;
+  margin: 0px 0px 20px 0px; width: 90%;
+}
+.carousel-inner {
+  width: 100%;
+}
+.mai {
+  font-size: 30px;
+}
+.from {
+  font-size: 20px;
+}
+.btn {
+  font-size: 16px;
+  width: ;
+}
+.shop-item {width: 80%;} 
+.low {
+  width: 500px;
+  height: 380px;
+}
+
+}
 
 @media screen and (max-width:576px){
 
@@ -465,7 +508,7 @@ h6 {
   text-align: left;
   font-size: 30px;
 }
-.shop-item {width: 45%;} 
+
 .intro-content {
   width: 50%;
 margin: 0;
@@ -474,23 +517,22 @@ margin: 0;
   width: 60%;
 }
 .intro {
-  width: 60%;
+  width: 400px;
 }
 .navbar {
-  width: 60%;
+  width: 400px;
 }
 .carousel-inner {
-  width: 60%;
+  width: 400px;
 }
 .clearfix {
-  width: 60%;
+  width: 400px;
 }
 .main-footer {
-  width: 60%;
+  width: 400px;
 }
 .footer-copyright {
-  width: 60%;
+  width: 400px;
 }
 
 }
-
