@@ -166,10 +166,10 @@ text-align: center;
  
  
 .shop-item01 {
-  background-image: src=("img/card1.png");
+  background: src=("img/card1.png");
 }
 .shop-item02 {
-  background-image: src="img/card2.png";
+  background-image: src="(img/card2.png)";
 }
 .shop-item03 {
   background-image: src="img/card3.png';
