@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-@import url(../color.css) screen and (../color);
+@import url(color.css) screen and (color);
 
 
 .img {
@@ -83,7 +83,7 @@ h6 {
     left: 0;
   }
   .intro {
-    background: url("../img/fon-contact.jpg") center no-repeat;
+    background: url("/img/fon-contact.jpg") center no-repeat;
     background-size: cover;
     max-height: 80hv;
     overflow: hidden;
@@ -197,7 +197,7 @@ footer ul{ padding-left: 0; list-style: none;}
 
 
 .modal-body {
- background-image: url("../img/bmw.jpg");
+ background-image: url("/img/bmw.jpg");
  opacity: 94%;
  color: white;
 }
@@ -313,14 +313,19 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   .intro {
     width: 100%;
   }
+  .bord {
+    width: 40px;
+    height: 40px;
+  }
 }
 @media (max-width:576px){
   .carod-img-top {
-    width: 90%;
+    width: 100%;
    
   }
+
   .intro {
-    width: 60%;
+    width: 900px;
   }
   .wallet {
     margin-left: 0;
@@ -333,8 +338,16 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   }
   .carod {font-size: 14px;
 }
+.navbar {
+  width:600px
+}
+.bord {
+  width: 40px;
+  height: 40px;
+  text-align: left;
+}
 .map {
-  width: 60%;
+  width: 100%;
 }
 .intro-title {
   font-size: 24px;
@@ -382,11 +395,11 @@ h2 {
   font-size: 12px;
 }
 .card-img-top {
-  width: 40%;
-  align:left;
+  width: 120px;
+  height: 120px;
 }
 .col {
-  width: 80%;
+  width: 100%;
   font-size: 14px;
 }
 .img {
@@ -402,38 +415,32 @@ h2 {
   text-align: left;
 }
 }
-
-@media (max-width:350px){
-  .carod-img-top {
-    width: 80%;
-    
+@media (max-width:476px){
+  .navbar {
+    width:600px;
   }
-  .carod {font-size: 12px;
-}
-.card-img-top {
-  width: 40%;
-}
+  .intro {
+    width: 600px;
+  }
+  .wallet {
+    margin-left: 0%;
+    text-align: left;
+    display: none;
+  }
 .map {
-  width: 50%;
+  width: 600px;
 }
-.carod-text {
-  font-size: 10px;
+.main-footer {
+  width: 600px;
 }
-.intro {
-  width: 50%;
+.footer-copyright {
+  width: 600px;
 }
-.copyright {
-  text-align: left;
-  font-size: 12px;
+.feedback {
+  width: 600px;
 }
-.card {
-  width: 50%;
-  text-align: center;
+.mb-3 {
+  width: 600px;
 }
-.rent {
-  font-size: 12px;
-}
-
-
 }
 
