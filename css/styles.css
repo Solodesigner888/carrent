@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-@import url(../color.css) screen and (../color);
+@import url(color.css) screen and (color);
 
 
 .card {
@@ -165,22 +165,22 @@ text-align: center;
 }
  
 .shop-item01 {
-  background-image: url("../img/card1.png");
+  background-image: url(/img/card1.png);
 }
 .shop-item02 {
-  background-image: url("../img/card2.png");
+  background-image: url(/img/card2.png);
 }
 .shop-item03 {
-  background-image: url("../img/card3.png");
+  background-image: url(/img/card3.png);
 }
 .shop-item04 {
-  background-image: url("../img/card4.png");
+  background-image: url(/img/card4.png);
 }
 .shop-item05 {
-  background-image: url("../img/card5.png");
+  background-image: url(/img/card5.png);
 }
 .shop-item06 {
-  background-image: url("../img/card6.png");
+  background-image: url(/img/card6.png);
 }
 .sale {
   font-family: 'Rubik', sans-serif;
@@ -318,7 +318,7 @@ h6 {
   font-size: 25px;
 }
 .modal-body {
-  background-image: url("../img/bmw.jpg");
+  background-image: url("/img/bmw.jpg");
   opacity: 94%;
   color: white;
  }
@@ -422,13 +422,10 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 }
 
 }
+
 @media screen and (max-width:576px){
-  .clearfix {font-size: 12px;
-    margin: 0px 0px 15px 0px; width: 40%; 
-}
-.carousel-inner {
-  width: 50%;
-}
+
+
 .h2 {
   text-align: left;
 }
@@ -445,17 +442,15 @@ h6 {
   font-size: 12px;
 }
 .company {
-  font-size: 12px;
-  width: 70%;
+  font-size: 9px;
+  
 }
 .copyright {
   text-align: left;
   font-size: 12px;
 }
 
-.widget {
-  width: 50%;
-}
+
 .card-body {
   text-align: center;
 }
@@ -476,30 +471,26 @@ h6 {
 margin: 0;
 }
 .card {
-  width: 50%;
+  width: 60%;
 }
-
-
+.intro {
+  width: 60%;
 }
-
-@media screen and (max-width:250px){
-  .clearfix {font-size: 12px;
-    margin: 0px 0px 10px 0px; width: 40%; 
+.navbar {
+  width: 60%;
 }
 .carousel-inner {
-  width: 50%;
+  width: 60%;
 }
-.h2 {
-  text-align: left;
+.clearfix {
+  width: 60%;
 }
-.widget {
-  width: 50%;
+.main-footer {
+  width: 60%;
 }
-.mai {
-  font-size: 20px;
+.footer-copyright {
+  width: 60%;
 }
-.from {
-  font-size: 10px;
+
 }
-.shop-item {width: 30%;} 
-}
+
