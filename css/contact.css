@@ -417,10 +417,10 @@ h2 {
 }
 @media (max-width:476px){
   .navbar {
-    width:600px;
+    width:400px;
   }
   .intro {
-    width: 600px;
+    width: 400px;
   }
   .wallet {
     margin-left: 0%;
@@ -428,19 +428,37 @@ h2 {
     display: none;
   }
 .map {
-  width: 600px;
+  width: 400px;
 }
 .main-footer {
-  width: 600px;
+  width: 400px;
 }
 .footer-copyright {
-  width: 600px;
+  width: 400px;
+  font-size: 13px;
 }
 .feedback {
-  width: 600px;
+  width: 400px;
 }
 .mb-3 {
-  width: 600px;
+  width: 400px;
 }
+.card {
+  width: 400px;
 }
+h2 {
+  text-align: left;
+}
+.rent {
+  width: 350px;
+}
+h4{
+  font-size: 18px;
+}
+.hstack {
+  width: 400px}
+ 
+
+}
+
 
