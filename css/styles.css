@@ -172,7 +172,7 @@ text-align: center;
   background-image: src="(img/card2.png)";
 }
 .shop-item03 {
-  background-image: src="../img/card3.png';
+  background-image: src="../img/card3.png";
 }
 .shop-item04 {
   background-image: src="img/card4.png";
@@ -319,7 +319,7 @@ h6 {
   font-size: 25px;
 }
 .modal-body {
-  background-image: src="img/bmw.jpg";
+  background-image: src=("img/bmw.jpg");
   opacity: 94%;
   color: white;
  }
