@@ -308,15 +308,9 @@ color: red;
 
 
 }
-@media (max-width:567px){
-.col {
-  width: 50%;
- 
+@media (max-width:576px){
 
-}
-.widget {
-  width: 50%;
-}
+
 .navbar {
   width: 400px;
 }
@@ -337,7 +331,7 @@ color: red;
 }
 .card {
   width: 70%;
-  position: relative;
+  
 }
 .company {
   width: 70%;
