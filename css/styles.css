@@ -166,7 +166,7 @@ text-align: center;
  
  
 .shop-item01 {
-  background: url(..img/card1.png);
+  background-image: url(../img/card1.png);
 }
 .shop-item02 {
   background-image: src="img/card2.png";
@@ -468,8 +468,12 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 }
 
 @media screen and (max-width:576px){
-
-
+.reklama {
+  width: 400px;
+}
+.shop-item {
+  width: 380px;
+}
 .h2 {
   text-align: left;
 }
@@ -493,7 +497,10 @@ h6 {
   text-align: left;
   font-size: 12px;
 }
-
+.intro {
+  width: 380px;
+  height: 550px;
+}
 
 .card-body {
   text-align: center;
@@ -509,31 +516,40 @@ h6 {
   text-align: left;
   font-size: 30px;
 }
-
-.intro-content {
-  width: 50%;
-margin: 0;
+.intro-rent-text {
+  font-size: 60px;
+}
+.low {
+  width: 250px;
+  height: 250px;
 }
 .card {
-  width: 60%;
+  width: 70%;
 }
-.intro {
-  width: 400px;
+.btn {
+  font-size: 12px;
+ 
 }
 .navbar {
-  width: 400px;
+  width: 380px;
+
 }
 .carousel-inner {
-  width: 400px;
+  width: 380px;
 }
 .clearfix {
-  width: 400px;
+  width: 380px;
 }
 .main-footer {
-  width: 400px;
+  width: 380px;
 }
 .footer-copyright {
+  width: 380px;
+}
+.photo {
   width: 400px;
+  height: 340px;
 }
 
 }
+
