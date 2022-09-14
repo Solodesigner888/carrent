@@ -166,19 +166,19 @@ text-align: center;
  
  
 .shop-item01 {
-  background: src("img/card1.png");
+  background: url(..img/card1.png);
 }
 .shop-item02 {
-  background-image: src="(img/card2.png)";
+  background-image: src="img/card2.png";
 }
 .shop-item03 {
-  background-image: src="../img/card3.png";
+  background-image: src="img/card3.png";
 }
 .shop-item04 {
   background-image: src="img/card4.png";
 }
 .shop-item05 {
-  background-image: src=(img/card5.png);
+  background-image: src="img/card5.png";
 }
 .shop-item06 {
   background-image: src="img/card6.png";
