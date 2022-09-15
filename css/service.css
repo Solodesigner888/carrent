@@ -74,7 +74,7 @@ h6 {
   font-style: bolt;
 }
 .modal-body {
-  background-image: url("img/bmw.jpg");
+  background-image: url(../img/bmw.jpg);
   opacity: 94%;
   color: white;
  }
