@@ -487,10 +487,12 @@ h6 {
   font-size: 15px;
 }
 .registrashion {
-  font-size: 12px;
+  font-size: 9px;
+  width: 280px;
 }
 .company {
   font-size: 9px;
+  width: 280px;
   
 }
 .copyright {
@@ -520,8 +522,8 @@ h6 {
   font-size: 60px;
 }
 .low {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
 }
 .card {
   width: 70%;
@@ -549,6 +551,9 @@ h6 {
 .photo {
   width: 400px;
   height: 340px;
+}
+.form-control {
+  width: 80%;
 }
 
 }
