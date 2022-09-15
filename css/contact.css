@@ -324,22 +324,24 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
    
   }
 
-  .wallet {
-    margin-left: 20px;
-    display: none;
-    text-align: center;
-  }
+ 
   .feedback {
     width: 70%;
   }
-  . h4 {
+   h4 {
     font-size: 16px;
   }
-  .carod {font-size: 14px;
+  .carod {
+    font-size: 14px;
 }
-
+.wallet {
+  margin-left: 10px;
+  display: none;
+  text-align: left;
+  font-size: 28px;
+}
 .navbar {
-  width:480px
+  width:400px
 }
 .bord {
   width: 40px;
@@ -347,7 +349,7 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   text-align: left;
 }
 .map {
-  width: 480px;
+  width: 400px;
   height: 230px;
 }
 .intro-title {
@@ -357,7 +359,7 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   font-size: 16px;
 }
 .intro {
-  width: 480px;
+  width: 400px;
 }
 .copyright {
   text-align: left;
@@ -370,6 +372,7 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 
 h2 {
   font-size: 25px;
+  text-align: left;
 }
 .rent {
   font-size: 12px;
@@ -377,18 +380,21 @@ h2 {
 .footer-copyright {
   text-align: left;
   font-size:12px;
-  width: 480px;
+  width: 400px;
 }
 .card {
-  width: 40%;
+  width: 34%;
+  height: 90%;
   text-align: left;
+  margin: ;
 }
 .rent {
   font-size: 12px;
-  width: 35%;
+  width: 30%;
 }
 .registrashion {
   font-size: 12px;
+  width: 30%;
 
 }
 .btn {
@@ -418,14 +424,12 @@ h6 {
   font-size: 22px;
 }
 .feedback {
-  width: 38%;
+  width: 30%;
 }
 .hstack {
-  width: 38%;
+  width: 30%;
 }
 .main-footer {
-  width: 480px;
+  width: 400px;
 }
 }
-
-
