@@ -222,9 +222,7 @@ height: 29px;
 left: 300px;
 top: 350px;
 }
-.col:hover {
-  background-color: #0001;
-}
+
 
 .photo{
   border-radius: 20px;
@@ -478,7 +476,7 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   text-align: left;
 }
 h6 {
-  font-size: 12px;
+  font-size: 20px;
 }
 .mai {
   font-size: 25px;
@@ -487,12 +485,12 @@ h6 {
   font-size: 15px;
 }
 .registrashion {
-  font-size: 9px;
-  width: 280px;
+  font-size: 12px;
+  width: 350px;
 }
 .company {
-  font-size: 9px;
-  width: 280px;
+  font-size: 12px;
+  width: 350px;
   
 }
 .copyright {
@@ -526,7 +524,7 @@ h6 {
   height: 280px;
 }
 .card {
-  width: 70%;
+  width: 95%;
 }
 .btn {
   font-size: 12px;
@@ -555,6 +553,8 @@ h6 {
 .form-control {
   width: 80%;
 }
-
+.photon {
+  width: 400px;
+  height: 340px;
 }
-
+}
