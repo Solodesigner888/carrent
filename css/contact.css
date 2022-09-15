@@ -324,11 +324,10 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
    
   }
 
-  .intro {
-    width: 900px;
-  }
   .wallet {
-    margin-left: 0;
+    margin-left: 20px;
+    display: none;
+    text-align: center;
   }
   .feedback {
     width: 70%;
@@ -338,8 +337,9 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   }
   .carod {font-size: 14px;
 }
+
 .navbar {
-  width:600px
+  width:480px
 }
 .bord {
   width: 40px;
@@ -347,7 +347,8 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   text-align: left;
 }
 .map {
-  width: 100%;
+  width: 480px;
+  height: 230px;
 }
 .intro-title {
   font-size: 24px;
@@ -356,36 +357,35 @@ ul.social-footer2 li a:hover {background-color:#ff8d1e;}
   font-size: 16px;
 }
 .intro {
-  width: 50%;
+  width: 480px;
 }
 .copyright {
   text-align: left;
   font-size: 12px;
 }
 .carod {
-  width: 20%;
-  height: 60%;
+  width: 25%;
+  height: 50%;
 }
-.img {
-  width: 50%;
-}
+
 h2 {
   font-size: 25px;
 }
 .rent {
   font-size: 12px;
 }
-.copyright {
+.footer-copyright {
   text-align: left;
-  font-size: 12px;
+  font-size:12px;
+  width: 480px;
 }
 .card {
-  width: 50%;
+  width: 40%;
   text-align: left;
 }
 .rent {
   font-size: 12px;
-  width: 40%;
+  width: 35%;
 }
 .registrashion {
   font-size: 12px;
@@ -395,8 +395,8 @@ h2 {
   font-size: 12px;
 }
 .card-img-top {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
 }
 .col {
   width: 100%;
@@ -414,54 +414,18 @@ h2 {
 .copiright{
   text-align: left;
 }
-}
-@media (max-width:476px){
-  .navbar {
-    width:400px;
-  }
-  .intro {
-    width: 400px;
-  }
-  .wallet {
-    margin-left: 0%;
-    text-align: center;
-    display: none;
-  }
-.map {
-  width: 400px;
-}
-.main-footer {
-  width: 400px;
-}
-.footer-copyright {
-  width: 400px;
-  font-size: 13px;
+h6 {
+  font-size: 22px;
 }
 .feedback {
-  width: 400px;
-}
-.mb-3 {
-  width: 400px;
-}
-.card {
-  width: 400px;
-}
-h2 {
-  text-align: left;
-}
-.rent {
-  width: 350px;
-}
-h4{
-  font-size: 18px;
+  width: 38%;
 }
 .hstack {
-  width: 400px}
-  .registrashion {
-  width: 350px; 
+  width: 38%;
 }
- 
-
+.main-footer {
+  width: 480px;
+}
 }
 
 
