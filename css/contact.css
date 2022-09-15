@@ -197,7 +197,7 @@ footer ul{ padding-left: 0; list-style: none;}
 
 
 .modal-body {
- background-image: url("/img/bmw.jpg");
+ background-image: url(../img/bmw.jpg);
  opacity: 94%;
  color: white;
 }
