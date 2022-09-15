@@ -188,7 +188,7 @@ h6 {font-size: 20px}
     }
    
   }
-  @media screen and (max-width:567px) {
+   @media screen and (max-width:567px) {
     .clearfix {
       font-size: 12px;
       width: 95%;
@@ -206,12 +206,12 @@ h6 {font-size: 20px}
       width: 98%;
     }
     .photon {
-      width: 250px;
-      height: 250px;
+      width: 420px;
+      height: 380px;
     }
     .photo {
-      width: 250px;
-      height: 250px;
+      width: 420px;
+      height: 380px;
     }
     .text-center {
       font-size: 22px;
@@ -222,20 +222,8 @@ h6 {font-size: 20px}
     .accordion {
       font-size: 14px;
     }
+    .btn {
+      font-size: 12px;
+    }
  
-  }
-  @media screen and (max-width:350px) {
-    .accordion {
-      width: 95%;
-    }
-    h3 {
-      text-align: left;
-    }
-    .regist {
-      width: 95%;
-    }
-    .photo {
-      width: 90%;
-      margin: auto;
-    }
   }
