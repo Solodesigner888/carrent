@@ -296,20 +296,22 @@ color: red;
  
   
 }
-.modal {
-  width: 80%;
-}
-.photon {
-  width: 60%;
-}
-.col {
-  width: 50%;
-}
+
 
 
 }
+
 @media (max-width:576px){
-
+  .modal {
+    width: 80%;
+  }
+  .photon {
+    width: 60%;
+  }
+  .col {
+    width: 50%;
+  }
+  
 
 .navbar {
   width: 400px;
