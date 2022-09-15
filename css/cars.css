@@ -338,9 +338,9 @@ color: red;
   font-size: 12px;
 }
 .copyright {
-  text-align: left;
+  text-align: center;
   font-size: 12px;
-  margin-left: 10px;
+ 
 }
 .main-footer {
   width: 400px;
@@ -348,6 +348,8 @@ color: red;
 }
 .footer-copyright {
   width: 400px;
+  
+  
 }
 .card-img-top {
   width: 380px;
