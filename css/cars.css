@@ -330,11 +330,12 @@ color: red;
   margin-top: 10px;
 }
 .card {
-  width: 70%;
+  width: 69%;
   
 }
 .company {
-  width: 70%;
+  width: 80%;
+  font-size: 12px;
 }
 .copyright {
   text-align: left;
@@ -351,5 +352,8 @@ color: red;
 .card-img-top {
   width: 380px;
 }
-
+.registrashion {
+  font-size: 12px;
+  width: 80%;
+}
 }
